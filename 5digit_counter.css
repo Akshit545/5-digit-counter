@@ -1,0 +1,90 @@
+body{
+  background-color: cyan;
+}
+
+#counter-head{
+  /* border: 1px solid black; */
+  background-image: linear-gradient(45deg,#a4f2f2, #efa7d7);
+  margin: 3rem;
+  padding: 2rem;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  word-spacing: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.3rem;
+  margin: 2.5rem;
+}
+
+#count{
+  width: 30%;
+  height: 2.5rem;
+  margin-left: 10%;
+  padding-left: 1rem;
+  border: 1.4px solid black;
+}
+
+#count::placeholder{
+  font-size: 1.1rem;
+}
+
+#counter-btn{
+  cursor: pointer;
+  margin-left: 20%;
+  border-radius: 3rem;
+  height: 2.8rem;
+  box-shadow:0px 5px 20px white;
+  border:white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+
+#counter-body{
+  margin: auto;
+  background-color: brown;
+  height: 200px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#counter-body>div{
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.first, .next{
+  height: 98px;
+  width: 98px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+}
+
+.first{
+  position: absolute;
+}
+
+.next{
+  position: absolute;
+  top: 100%;
+}
+
+/* 
+#counter-body:hover #next{
+  top: 0%;
+} */
+
+span{
+  font-size: 5rem;
+}
